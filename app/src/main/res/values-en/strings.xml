@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sobreviu Eseiaat</string>
+    <string name="Consulta_dades">Consult data</string>
+    <string name="btn_horari">Timetable</string>
+    <string name="btn_planol">Map</string>
+    <string name="calendari">Calendar</string>
+    <string name="classroom">Classroom</string>
+    <string name="classroom_available">Classroom availability</string>
+    <string name="classroom_map">Classrom location</string>
+    <string name="confirm">Confirm</string>
+    <string name="friday">Friday</string>
+    <string name="horari">Timetable</string>
+    <string name="label_btn_busca">Search</string>
+    <string name="label_buscaprofes">Find your teacher</string>
+    <string name="label_calendar">Calendar and Timetables</string>
+    <string name="label_cognom1">1st Surname</string>
+    <string name="label_cognom2">2nd Surname</string>
+    <string name="label_nom">Name</string>
+    <string name="label_aulespc">Computer classroom</string>
+    <string name="label_aulesdocents">Classrooms</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_internet">No Internet connection</string>
+    <string name="no_classe">(No class)</string>
+    <string name="refresh_data">Data updated</string>
+    <string name="select_assignatures">Select subjects</string>
+    <string name="select_cell">Select a cell to see its subject</string>
+    <string name="label_pc_available">Computer classroom</string>
+    <string name="label_rrss">Social media</string>
+    <string name="label_profes">Teachers</string>
+    <string name="label_pc">Computer\nClassrooms</string>
+    <string name="label_aules">Consult\nClassrooms</string>
+    <string name="label_upc">Information</string>
+    <string name="label_webs">Useful websites</string>
+    <string name="map_eseiaat">ESEIAAT Map</string>
+    <string name="mapa">Map</string>
+    <string name="monday">Monday</string>
+    <string name="select_titulacio">Select a certification</string>
+    <string name="thursday">Thursday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="select_classroom">Select a classroom to see its timetable:</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="garcia.ivan.calendari.ActivityHorari">
+
+    <TextView
+        android:id="@+id/calendari_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calendari"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:id="@+id/dilluns_label"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"
+        android:text="Dl"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/dimarts_label"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="Dm"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:layout_alignBaseline="@+id/dilluns_label"
+        android:layout_alignBottom="@+id/dilluns_label"
+        android:layout_toEndOf="@+id/dilluns_label" />
+
+    <TextView
+        android:id="@+id/dimecres_label"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="Dx"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:layout_alignBaseline="@+id/dimarts_label"
+        android:layout_alignBottom="@+id/dimarts_label"
+        android:layout_toEndOf="@+id/dimarts_label" />
+
+    <TextView
+        android:id="@+id/dijous_label"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="Dj"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:layout_alignBaseline="@+id/dimecres_label"
+        android:layout_alignBottom="@+id/dimecres_label"
+        android:layout_toEndOf="@+id/dimecres_label" />
+
+    <TextView
+        android:id="@+id/divendreslabel"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="Dv"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:layout_alignBaseline="@+id/dimarts_label"
+        android:layout_alignBottom="@+id/dimarts_label"
+        android:layout_toEndOf="@+id/dijous_label" />
+
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="52dp"
+        android:numColumns="6"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="0dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dilluns_label"
+        android:layout_alignEnd="@+id/divendreslabel" />
+
+
+</RelativeLayout>

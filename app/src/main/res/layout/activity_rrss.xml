@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/btn_fbk"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"
+        android:onClick="rrss_fbk"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo_fbk" />
+
+    <ImageButton
+        android:id="@+id/btn_twt"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitCenter"
+        android:onClick="rrss_twt"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/logo_twt"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_insta"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="192dp"
+        android:background="@android:color/transparent"
+        android:onClick="rrss_insta"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo_insta"
+        android:layout_below="@+id/btn_fbk"/>
+
+    <ImageButton
+        android:id="@+id/btn_yb"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="192dp"
+        android:scaleType="fitCenter"
+        android:onClick="rrss_yb"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/logo_yb"
+        android:layout_below="@+id/btn_fbk"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_tv"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="27dp"
+        android:scaleType="fitCenter"
+        android:onClick="rrss_tv"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/logo_tv"
+        android:layout_below="@+id/btn_insta"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

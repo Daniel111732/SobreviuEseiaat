@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sobreviu Eseiaat</string>
+    <string name="calendari">Calendario</string>
+    <string name="classroom">Aula</string>
+    <string name="classroom_available">Disponibilidad del aula</string>
+    <string name="classroom_map">Ubicación del aula</string>
+    <string name="friday">Viernes</string>
+    <string name="horari">Horario</string>
+    <string name="label_aulesdocents">Aulas docentes</string>
+    <string name="label_aulespc">Aulas de informática</string>
+    <string name="label_calendar">Calendarios y Horarios</string>
+    <string name="Consulta_dades">Consulta datos</string>
+    <string name="btn_planol">Plano</string>
+    <string name="label_pc_available">Aulas de informática disponibles actualmente:</string>
+    <string name="label_profes">Profesores</string>
+    <string name="label_rrss">Redes sociales</string>
+    <string name="label_upc">Información</string>
+    <string name="label_webs">Webs de interés</string>
+    <string name="map_eseiaat">Mapa ESEIAAT</string>
+    <string name="monday">Lunes</string>
+    <string name="no_classe">(No hay clases)</string>
+    <string name="no_internet">No hay conexión a Internet</string>
+    <string name="refresh">Refrescar</string>
+    <string name="refresh_data">Datos actualizados</string>
+    <string name="select_cell">Selecciona una casilla para ver el horario</string>
+    <string name="select_classroom">Selecciona un aula para ver su horario:</string>
+    <string name="thursday">Jueves</string>
+    <string name="tuesday">Martes</string>
+    <string name="wednesday">Miércoles</string>
+    <string name="label_pc">Aulas\nInformática</string>
+    <string name="label_aules">Consulta\nAulas</string>
+    <string name="label_buscaprofes">Busca a tu profesor/a</string>
+    <string name="label_btn_busca">Busca</string>
+    <string name="label_cognom2">2º Apellido</string>
+    <string name="label_cognom1">1º Apellido</string>
+    <string name="label_nom">Nombre</string>
+    <string name="btn_horari">Horario</string>
+    <string name="confirm">Confirmar</string>
+    <string name="mapa">Mapa</string>
+    <string name="select_assignatures">Escoge asignaturas</string>
+    <string name="select_titulacio">Escoge una titulación</string>
+</resources>

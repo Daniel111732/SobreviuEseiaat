@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="14dp">
+
+    <TextView
+        android:id="@+id/assignatura_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/defaultMsisdnAlphaTag"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/grup1_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/assignatura_name"
+        android:layout_marginStart="50dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/grup2_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/assignatura_name"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@+id/grup1_name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/grup3_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/grup2_name"
+        android:layout_alignBottom="@+id/grup2_name"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@+id/grup2_name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/grup4_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/grup3_name"
+        android:layout_alignBottom="@+id/grup3_name"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@+id/grup3_name"
+        android:textSize="18sp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/assignatures_grups"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grup1_name"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/grup1_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/grup1_name"
+            android:layout_marginStart="57dp" />
+
+        <RadioButton
+            android:id="@+id/grup2_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/grup2_name"
+            android:layout_below="@+id/grup2_name"
+            android:layout_marginStart="40dp" />
+
+        <RadioButton
+            android:id="@+id/grup3_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/grup3_name"
+            android:layout_below="@+id/grup3_name"
+            android:layout_marginStart="40dp" />
+
+        <RadioButton
+            android:id="@+id/grup4_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/grup4_name"
+            android:layout_below="@+id/grup4_name"
+            android:layout_marginStart="40dp" />
+
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="titulacions">
+    <item>Grau en Enginyeria de Disseny Industrial i Desenvolupament del Producte</item>
+    <item>Grau en Enginyeria en Tecnologies Industrials</item>
+    <item>Grau en Enginyeria Elèctrica</item>
+    <item>Grau en Enginyeria en Electrònica Industrial i Automàtica</item>
+    <item>Grau en Enginyeria Mecànica</item>
+    <item>Grau en Enginyeria Química</item>
+    <item>Grau en Enginyeria de Tecnologia i Disseny Tèxtil</item>
+    <item>Grau en Enginyeria en Tecnologies Aeroespacials</item>
+    <item>Grau en Enginyeria en Vehicles Aeroespacials</item>
+    <item>Grau en Enginyeria de Sistemes Audiovisuals</item>
+</string-array>
+</resources>

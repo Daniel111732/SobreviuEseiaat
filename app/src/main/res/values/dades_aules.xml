@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data_aules_pc">
+        <item>TR1;0.08;8-14,15-21;10-14,15-21;8-12,17-21;8-14,15-19;8-14,15-19</item>
+        <item>TR1;0.10;8-14,15-17,18-21;10-14,15-21;8-12,16-20;8-14,15-21;8-14,15-21</item>
+        <item>TR1;0.11;12-14,15-21;8-10,12-14,15-21;9-12,15-17,18-21;8-14,15-21;8-9,12-14,15-21</item>
+        <item>TR1;0.12;8-9,12-14,17-19;12-14,15-21;8-11,16-19;8-14,15-18,19-21;8-9,10-14,15-21</item>
+        <item>TR2;0.17;12-14,15-18;12-14,18-21;null;8-14,15-17;8-11,12-14,15-17</item>
+        <item>TR2;0.18;15-19;15-21;8-12,17-18;8-12,15-17,19-20;8-11</item>
+        <item>TR5;PC3;9-13,15-19;8-14,16-17;8-10,18-20;9-13,19-21;null</item>
+        <item>TR5;PC4;9-13,17-19;8-14,16-17;8-10,18-20;9-13,17-21;null</item>
+        <item>TR5;PC5;9-13,15-19;8-14,15-17,19-21;8-10,17-20;9-13,17-22;8-10,15-18</item>
+        <item>TR5;PC6;9-13,15-21;8-14,15-17,19-21;8-10,18-20;9-13,17-22;8-10,15-18</item>
+        <item>TR5;PC7;12-14,15-20;8-14;8-12;8-14,17-21;8-14,16-20</item>
+        <item>TR5;PC8;10-14,15-19;15-18;8-12;19-21;8-10,12-14</item>
+    </string-array>
+
+    <string-array name="data_aules">
+        <item>TR1 - 1.05;Organització de la producció/L:8-10,J:8-10;Mètodes Matemàtics I/L:10-12;Energia i canvi climàtic/L:12-14;Tecnologies Mediambientals i sostenibilitat/L:16-17,M:9-10,J:15-19;Sistemes Mecànics/M:10-12,V:9-12,V:15-19;Mecànica de fluids/X:10-12;Química/L:19-21,M:15-18,J:15-19</item>
+        <item>TR1 - 1.06;Institut Teatre/L:9-14,M:9-12,X:9-12,J:9-14,V:9-14,L:15-17,V:15-17;Mètodes Matemàtics I/M:18-20,J:17-19</item>
+        <item>TR1 - 1.07;Física I/L:9-12,M:12-13,X:8-9,V:12-14;Química/M:9-11,M:13-14,X:10-12,J:9-11;Tecnologies Mediambientals i Sostenibilitat/M:11-12,J:12-14,V:10-12;Organització de la producció/L:17-21;Resistència de materials/M:15-17;Sistemes Tèrmics/X:16-20;Ciència i Enginyeria de Materials/J:18-20,V:17-18</item>
+        <item>TR1 - 1.08;Organització de la producció/L:8-10,J:8-10;Mètodes Matemàtics I/L:10-12;Energia i canvi climàtic/L:12-14;Tecnologies Mediambientals i sostenibilitat/L:16-17,M:9-10,J:15-19;Sistemes Mecànics/M:10-12,V:9-12,V:15-19;Mecànica de fluids/X:10-12;Química/L:19-21,M:15-18,J:15-19</item>
+        <item>TR1 - 1.09;Física I/L:8-10,L:12-14,M:8-10,J:9-10,X:18-19,V:15-17;Instrumentació Electrònica/L:11-12;Disseny Gràfic i Comunicació/L:15-19;Sistemes Mecànics/M:15-19,J:10-14;Tecnologies Ambientals i Sostenibilitat/M:11-12,V:8-12;Mètodes Matemàtics III/M:12-14,X:8-10,M:17-19;Projecte de Màquines i Mecanismes/J:15-17</item>
+        <item>TR1 - 1.11;Càlcul/M:17-18,X:16-19;Àlgebra/M:19-20;Teixits pel disseny de productes/M:10-12,X:8-12,V:10-12;Control i accionament de màquines elèctriques/V:8-10;Resistència de materials/V:12-14;Teoria i disseny de màquines/J:13-14</item>
+        <item>TR1 - 1.13;Institut Teatre/L:9-14,M:9-12,X:9-12,J:9-14,V:9-14,L:15-17,V:15-17;Mètodes Matemàtics I/M:18-20,J:17-19</item>
+        <item>TR1 - 1.15;Organització de la producció/L:8-10,J:8-10;Mètodes Matemàtics I/L:10-12;Energia i canvi climàtic/L:12-14;Tecnologies Mediambientals i sostenibilitat/L:16-17,M:9-10,J:15-19;Sistemes Mecànics/M:10-12,V:9-12,V:15-19;Mecànica de fluids/X:10-12;Química/L:19-21,M:15-18,J:15-19</item>
+        <item>TR1 - 1.22;Institut Teatre/L:9-14,M:9-12,X:9-12,J:9-14,V:9-14,L:15-17,V:15-17;Mètodes Matemàtics I/M:18-20,J:17-19</item>
+        <item>TR1 - 1.23;Física I/L:8-10,L:12-14,M:8-10,J:9-10,X:18-19,V:15-17;Instrumentació Electrònica/L:11-12;Disseny Gràfic i Comunicació/L:15-19;Sistemes Mecànics/M:15-19,J:10-14;Tecnologies Ambientals i Sostenibilitat/M:11-12,V:8-12;Mètodes Matemàtics III/M:12-14,X:8-10,M:17-19;Projecte de Màquines i Mecanismes/J:15-17</item>
+        <item>TR1 - 2.01;Càlcul/M:17-18,X:16-19;Àlgebra/M:19-20;Teixits pel disseny de productes/M:10-12,X:8-12,V:10-12;Control i accionament de màquines elèctriques/V:8-10;Resistència de materials/V:12-14;Teoria i disseny de màquines/J:13-14</item>
+        <item>TR1 - 2.02;Organització de la producció/L:8-10,J:8-10;Mètodes Matemàtics I/L:10-12;Energia i canvi climàtic/L:12-14;Tecnologies Mediambientals i sostenibilitat/L:16-17,M:9-10,J:15-19;Sistemes Mecànics/M:10-12,V:9-12,V:15-19;Mecànica de fluids/X:10-12;Química/L:19-21,M:15-18,J:15-19</item>
+        <item>TR1 - 2.03;Institut Teatre/L:9-14,M:9-12,X:9-12,J:9-14,V:9-14,L:15-17,V:15-17;Mètodes Matemàtics I/M:18-20,J:17-19</item>
+        <item>TR1 - 2.04;Física I/L:8-10,L:12-14,M:8-10,J:9-10,X:18-19,V:15-17;Instrumentació Electrònica/L:11-12;Disseny Gràfic i Comunicació/L:15-19;Sistemes Mecànics/M:15-19,J:10-14;Tecnologies Ambientals i Sostenibilitat/M:11-12,V:8-12;Mètodes Matemàtics III/M:12-14,X:8-10,M:17-19;Projecte de Màquines i Mecanismes/J:15-17</item>
+        <item>TR1 - 2.05;Física I/L:9-12,M:12-13,X:8-9,V:12-14;Química/M:9-11,M:13-14,X:10-12,J:9-11;Tecnologies Mediambientals i Sostenibilitat/M:11-12,J:12-14,V:10-12;Organització de la producció/L:17-21;Resistència de materials/M:15-17;Sistemes Tèrmics/X:16-20;Ciència i Enginyeria de Materials/J:18-20,V:17-18</item>
+        <item>TR1 - 2.06;Institut Teatre/L:9-14,M:9-12,X:9-12,J:9-14,V:9-14,L:15-17,V:15-17;Mètodes Matemàtics I/M:18-20,J:17-19</item>
+        <item>TR1 - 2.07;Física I/L:8-10,L:12-14,M:8-10,J:9-10,X:18-19,V:15-17;Instrumentació Electrònica/L:11-12;Disseny Gràfic i Comunicació/L:15-19;Sistemes Mecànics/M:15-19,J:10-14;Tecnologies Ambientals i Sostenibilitat/M:11-12,V:8-12;Mètodes Matemàtics III/M:12-14,X:8-10,M:17-19;Projecte de Màquines i Mecanismes/J:15-17</item>
+        <item>TR1 - 2.08;Institut Teatre/L:9-14,M:9-12,X:9-12,J:9-14,V:9-14,L:15-17,V:15-17;Mètodes Matemàtics I/M:18-20,J:17-19</item>
+        <item>TR1 - 2.10;Física I/L:9-12,M:12-13,X:8-9,V:12-14;Química/M:9-11,M:13-14,X:10-12,J:9-11;Tecnologies Mediambientals i Sostenibilitat/M:11-12,J:12-14,V:10-12;Organització de la producció/L:17-21;Resistència de materials/M:15-17;Sistemes Tèrmics/X:16-20;Ciència i Enginyeria de Materials/J:18-20,V:17-18</item>
+        <item>TR1 - 2.18;Organització de la producció/L:8-10,J:8-10;Mètodes Matemàtics I/L:10-12;Energia i canvi climàtic/L:12-14;Tecnologies Mediambientals i sostenibilitat/L:16-17,M:9-10,J:15-19;Sistemes Mecànics/M:10-12,V:9-12,V:15-19;Mecànica de fluids/X:10-12;Química/L:19-21,M:15-18,J:15-19</item>
+        <item>TR1 - IKEA;Investigació, Desenvolupament I/X:16-21;Estudi i anàlisi tècnic de materials/M:15-20</item>
+        <item>TR1 - FABLAB;FABLAB/L:17-21,M:17-21;Estètica i disseny/L:12-14,J:16-20;Taller de disseny experimental del producte/X:18-20</item>
+    </string-array>
+</resources>

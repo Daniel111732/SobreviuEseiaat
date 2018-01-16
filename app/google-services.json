@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "736608161136",
+    "firebase_url": "https://sobreviueseiaat-32bfa.firebaseio.com",
+    "project_id": "sobreviueseiaat-32bfa",
+    "storage_bucket": "sobreviueseiaat-32bfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736608161136:android:9b61ed843f6a4cf4",
+        "android_client_info": {
+          "package_name": "garcia.ivan.calendari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736608161136-onrlgsph7i2hp4hvrk5ftluabfu3243c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "garcia.ivan.calendari",
+            "certificate_hash": "4d2d877a1411766c25d303adcc720cd925440fc7"
+          }
+        },
+        {
+          "client_id": "736608161136-oie8cno7va03gu0dudlrvc8qo0uaa3sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_HWhGoUmHsoMROkZ9csTQFgw18R52K-o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736608161136-oie8cno7va03gu0dudlrvc8qo0uaa3sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

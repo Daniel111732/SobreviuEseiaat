@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="consulta_webs">
+        <item>ESEIAAT;https://eseiaat.upc.edu/ca</item>
+        <item>Atenció usuari;https://sau.eseiaat.upc.edu/</item>
+        <item>Bibliotècnica;https://m.bibliotecnica.upc.edu/home/index.php</item>
+        <item>Borsa de Treball;https://borsaconvenis.eseiaat.upc.edu/</item>
+        <item>Contrasenya UPC;https://identitatdigital.upc.edu/gcredencials/init/</item>
+        <item>Correu Electrònic;https://correu.upc.edu/horde/login.php</item>
+        <item>e-Secretaria;https://prisma-nou.upc.edu/apl/home_estudiants.php</item>
+        <item>Guia de Serveis;https://utgact.upc.edu/ca/serveis/guies</item>
+        <item>Igualtat Oportunitats;https://igualtat.upc.edu/ca</item>
+        <item>Intranet;https://intranet.eseiaat.upc.edu/</item>
+        <item>Pla Estalvi Energètic;https://www.upc.edu/gestiosostenible/ca/</item>
+        <item>Portafirmes UPC;https://portafirmes.upc.edu/Portafirmes/</item>
+        <item>Distribució de Programari;https://serveistic.upc.edu/ca/distsoft/el-servei/programari-per-a-estudiantsi-professors</item>
+        <item>PUC Personal;https://gn6.upc.edu/pucpersonal/control/main</item>
+        <item>Reserva de Recursos;https://reserves.terrassa.upc.edu/</item>
+        <item>Servei Esports;http://www.upc.edu/esports/campus/terrassa</item>
+        <item>Servei Informàtics;http://sict.upc.edu/</item>
+        <item>ZendTo;https://ctzen.upc.edu/</item>
+        <item>Exàmens ESEIAAT;http://examens.upc.edu/courses_pr/671/205</item>
+        <item>UPC Commons;http://upcommons.upc.edu/</item>
+    </string-array>
+
+    <string-array name="consulta_CH">
+        <item>Degree Calendar</item>
+        <item>Masters Calendar</item>
+        <item>Mid-term Exams timetable</item>
+        <item>Final Exams timetable</item>
+        <item>Classes Timetable</item>
+    </string-array>
+
+    <string-array name="Especialitats">
+        <item>Tria la teva especialitat…;null</item>
+        <item>GRAU (FASE COMUNA) EN ENGINYERIES:  ELECTRÒNICA INDUSTRIAL I AUTOMÀTICA, ELÈCTRICA, MECÀNICA, QUÍMICA I TECNOLOGIA I DISSENY TÈXTIL;https://intranet.eseiaat.upc.edu/ca/horaris/pla/706/2017/1</item>
+        <item>GRAU EN ENGINYERIA DE DISSENY INDUSTRIAL I DESENVOLUPAMENT DEL PRODUCTE;https://intranet.eseiaat.upc.edu/ca/horaris/pla/743/2017/1</item>
+        <item>GRAU EN ENGINYERIA DE SISTEMES AUDIOVISUALS;https://intranet.eseiaat.upc.edu/ca/horaris/pla/675/2017/1</item>
+        <item>GRAU EN ENGINYERIA DE TECNOLOGIA I DISSENY TÈXTIL;https://intranet.eseiaat.upc.edu/ca/horaris/pla/676/2017/1</item>
+        <item>GRAU EN ENGINYERIA ELÈCTRICA;https://intranet.eseiaat.upc.edu/ca/horaris/pla/672/2017/1</item>
+        <item>GRAU EN ENGINYERIA ELECTRÒNICA INDUSTRIAL I AUTOMÀTICA;https://intranet.eseiaat.upc.edu/ca/horaris/pla/671/2017/1</item>
+        <item>GRAU EN ENGINYERIA EN TECNOLOGIES AEROESPACIALS;https://intranet.eseiaat.upc.edu/ca/horaris/pla/736/2017/1</item>
+        <item>GRAU EN ENGINYERIA EN TECNOLOGIES INDUSTRIALS;https://intranet.eseiaat.upc.edu/ca/horaris/pla/735/2017/1</item>
+        <item>GRAU EN ENGINYERIA EN VEHICLES AEROESPACIALS;https://intranet.eseiaat.upc.edu/ca/horaris/pla/737/2017/1</item>
+        <item>GRAU EN ENGINYERIA MECÀNICA;https://intranet.eseiaat.upc.edu/ca/horaris/pla/673/2017/1</item>
+        <item>GRAU EN ENGINYERIA QUÍMICA;https://intranet.eseiaat.upc.edu/ca/horaris/pla/674/2017/1</item>
+        <item>MÀSTER UNIVERSITARI EN ENGINYERIA AERONÀUTICA;https://intranet.eseiaat.upc.edu/ca/horaris/pla/1091/2017/1</item>
+        <item>MÀSTER UNIVERSITARI EN ENGINYERIA DE SISTEMES AUTOMÀTICS I ELECTRÒNICA INDUSTRIAL;https://intranet.eseiaat.upc.edu/ca/horaris/pla/876/2017/1</item>
+        <item>MÀSTER UNIVERSITARI EN ENGINYERIA ESPACIAL I AERONÀUTICA;https://intranet.eseiaat.upc.edu/ca/horaris/pla/1242/2017/1</item>
+        <item>MÀSTER UNIVERSITARI EN ENGINYERIA INDUSTRIAL;https://intranet.eseiaat.upc.edu/ca/horaris/pla/951/2017/1</item>
+        <item>MÀSTER UNIVERSITARI EN ENGINYERIA TÈXTIL I PAPERERA;https://intranet.eseiaat.upc.edu/ca/horaris/pla/1240/2017/1</item>
+        <item>MÀSTER UNIVERSITARI EN GESTIÓ EMPRESES DE TECNOLOGIA I ENGINYERIA;https://intranet.eseiaat.upc.edu/ca/horaris/pla/1243/2017/1</item>
+    </string-array>
+
+</resources>

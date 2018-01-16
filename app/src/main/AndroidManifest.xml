@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="garcia.ivan.calendari">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_upc"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityMain"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityHorari"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityModificaHorari"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityAssignatures"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityAules"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityCalendarHorari"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityInfo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityPC"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityProfes"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityRRSS"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityWebs"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

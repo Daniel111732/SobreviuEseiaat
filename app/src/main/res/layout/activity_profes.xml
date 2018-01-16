@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_titol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/label_buscaprofes"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:hint="@string/label_nom"
+        android:inputType="textPersonName"
+        android:layout_marginStart="11dp"
+        android:layout_below="@+id/text_titol"
+        android:layout_toEndOf="@+id/text_Cognom1" />
+
+    <EditText
+        android:id="@+id/edit_cognom1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edit_nom"
+        android:layout_below="@+id/edit_nom"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/label_cognom1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_cognom2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edit_cognom1"
+        android:layout_below="@+id/edit_cognom1"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="@string/label_cognom2"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/text_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/label_nom"
+        android:layout_alignBaseline="@+id/edit_nom"
+        android:layout_alignBottom="@+id/edit_nom"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/text_Cognom1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edit_cognom1"
+        android:layout_alignBottom="@+id/edit_cognom1"
+        android:layout_alignStart="@+id/text_nom"
+        android:text="@string/label_cognom1" />
+
+    <TextView
+        android:id="@+id/text_cognom2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_cognom2"
+        android:layout_alignBaseline="@+id/edit_cognom2"
+        android:layout_alignBottom="@+id/edit_cognom2"
+        android:layout_alignStart="@+id/text_Cognom1" />
+
+    <Button
+        android:id="@+id/busca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_cognom2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:onClick="buscar_PDIPAS"
+        android:text="@string/label_btn_busca" />
+
+</RelativeLayout>

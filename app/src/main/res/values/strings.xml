@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Sobreviu Eseiaat</string>
+    <string name="label_upc">Informació</string>
+    <string name="label_calendar">Calendaris i Horaris</string>
+    <string name="label_aules">Consulta\nAules</string>
+    <string name="label_pc">Aules\nInformàtica</string>
+    <string name="calendari">Calendari</string>
+    <string name="horari">Horari</string>
+    <string name="no_classe">(No hi ha classe)</string>
+    <string name="map_eseiaat">Mapa ESEIAAT</string>
+    <string name="select_cell">Selecciona una casella per veure l\'horari</string>
+    <string name="classroom">Aula</string>
+    <string name="label_monday" translatable="false">L</string>
+    <string name="label_tuesday" translatable="false">M</string>
+    <string name="label_wednesday" translatable="false">X</string>
+    <string name="label_thursday" translatable="false">J</string>
+    <string name="label_friday" translatable="false">V</string>
+    <string name="monday">Dilluns</string>
+    <string name="tuesday">Dimarts</string>
+    <string name="wednesday">Dimecres</string>
+    <string name="thursday">Dijous</string>
+    <string name="friday">Divendres</string>
+    <string name="classroom_available">Disponibilitat de l\'Aula</string>
+    <string name="classroom_map">Ubicació de l\'Aula</string>
+    <string name="label_aulesdocents">Aules docents</string>
+    <string name="btn_planol">Plànol</string>
+    <string name="select_classroom">Selecciona una Aula per veure el seu horari:</string>
+    <string name="label_aulespc">Aules d\'informàtica</string>
+    <string name="label_pc_available">Aules d\'informàtica disponibles actualment:</string>
+    <string name="no_internet">No hi ha connexió a internet</string>
+    <string name="refresh">Refrescar</string>
+    <string name="login_atenea" translatable="false">Login Atenea</string>
+    <string name="refresh_data">Dades actualitzades</string>
+    <string name="Consulta_dades">Consulta dades</string>
+    <string name="label_profes">Professors</string>
+    <string name="label_webs">Webs d\'interès</string>
+    <string name="label_rrss">Xarxes socials</string>
+    <string name="label_buscaprofes">Troba el teu professor/a</string>
+    <string name="label_btn_busca">Cerca</string>
+    <string name="label_cognom2">2n Cognom</string>
+    <string name="label_cognom1">1r Cognom</string>
+    <string name="label_nom">Nom</string>
+    <string name="btn_horari">Horari</string>
+    <string name="mapa">Mapa</string>
+    <string name="select_titulacio">Escull una titulació</string>
+    <string name="select_assignatures">Escull assignatures</string>
+    <string name="confirm">Confirmar</string>
+
+</resources>

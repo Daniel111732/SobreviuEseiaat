@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="assignatures_disseny">
+        <item>MÈTODES MATEMÀTICS I;A1;0;A2;1;A3;2;A4;3</item>
+        <item>MÈTODES MATEMÀTICS I;B1;4;B2;5;B3;6;B4;7</item>
+        <item>MÈTODES MATEMÀTICS I;C1;8;C2;9;C3;10;C4;11</item>
+        <item>MÈTODES MATEMÀTICS I;D1;12;D2;13;D3;14;D4;15</item>
+        <item>MÈTODES MATEMÀTICS I;E1;16;E2;17;E3;18;E4;19</item>
+        <item>FÍSICA I;A1;20;A2;21;A3;22;A4;23</item>
+        <item>FÍSICA I;B1;24;B2;25;B3;26;B4;27</item>
+        <item>FÍSICA I;C1;28;C2;29;C3;30;C4;31</item>
+        <item>FÍSICA I;D1;32;D2;33;D34;2;D4;35</item>
+        <item>FÍSICA I;E1;36;E2;37;E3;38;E4;39</item>
+        <item>EXPRESSIÓ GRÀFICA;A1;40;A2;41;A3;42;A4;43</item>
+        <item>EXPRESSIÓ GRÀFICA;B1;44;B2;45;B3;46;B4;47</item>
+        <item>EXPRESSIÓ GRÀFICA;C1;48;C2;49;C3;50;C4;51</item>
+        <item>EXPRESSIÓ GRÀFICA;D1;52;D2;53;D3;54;D4;55</item>
+        <item>EXPRESSIÓ GRÀFICA;E1;56;E2;57;E3;58;E4;59</item>
+        <item>QUÍMICA;A1;60;A2;61;A3;62;A4;63</item>
+        <item>QUÍMICA;B1;64;B2;65;B3;66;B4;67</item>
+        <item>QUÍMICA;C1;68;C2;69;C3;70;C4;71</item>
+        <item>QUÍMICA;D1;72;D2;73;D3;74;D4;75</item>
+        <item>QUÍMICA;E1;76;E2;77;E3;78;E4;79</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;A1;80;A2;81;A3;82;A4;83</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;B1;84;B2;85;B3;86;B4;87</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;C1;88;C2;89;C3;90;C4;91</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;D1;92;D2;93;D3;94;D4;95</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;E1;96;E2;97;E3;98;E4;99</item>
+    </string-array>
+    <string-array name="assignatures_tecnologies">
+        <item>TecnologiesDigital;101;001;102;002;103;003;104;004</item>
+        <item>Electrònica Analògica;101;001;102;002;103;003;104;004</item>
+        <item>Electrònica de Potencia I;101;001;102;002;103;003;104;004</item>
+        <item>Electrònica de Potencia II;101;001;102;002;103;003;104;004</item>
+        <item>Instrumentació Electrònica;101;001;102;002;103;003;104;004</item>
+        <item>Modelització de Sistemes Dinàmics I;101;001;102;002;103;003;104;004</item>
+        <item>Modelització de Sistemes Dinàmics I;101;001;102;002;103;003;104;004</item>
+    </string-array>
+    <string-array name="assignatures_electronica">
+        <item>MÈTODES MATEMÀTICS I;A1;0;A2;1;A3;2;A4;3</item>
+        <item>MÈTODES MATEMÀTICS I;B1;4;B2;5;B3;6;B4;7</item>
+        <item>MÈTODES MATEMÀTICS I;C1;8;C2;9;C3;10;C4;11</item>
+        <item>MÈTODES MATEMÀTICS I;D1;12;D2;13;D3;14;D4;15</item>
+        <item>MÈTODES MATEMÀTICS I;E1;16;E2;17;E3;18;E4;19</item>
+        <item>FÍSICA I;A1;20;A2;21;A3;22;A4;23</item>
+        <item>FÍSICA I;B1;24;B2;25;B3;26;B4;27</item>
+        <item>FÍSICA I;C1;28;C2;29;C3;30;C4;31</item>
+        <item>FÍSICA I;D1;32;D2;33;D34;2;D4;35</item>
+        <item>FÍSICA I;E1;36;E2;37;E3;38;E4;39</item>
+        <item>EXPRESSIÓ GRÀFICA;A1;40;A2;41;A3;42;A4;43</item>
+        <item>EXPRESSIÓ GRÀFICA;B1;44;B2;45;B3;46;B4;47</item>
+        <item>EXPRESSIÓ GRÀFICA;C1;48;C2;49;C3;50;C4;51</item>
+        <item>EXPRESSIÓ GRÀFICA;D1;52;D2;53;D3;54;D4;55</item>
+        <item>EXPRESSIÓ GRÀFICA;E1;56;E2;57;E3;58;E4;59</item>
+        <item>QUÍMICA;A1;60;A2;61;A3;62;A4;63</item>
+        <item>QUÍMICA;B1;64;B2;65;B3;66;B4;67</item>
+        <item>QUÍMICA;C1;68;C2;69;C3;70;C4;71</item>
+        <item>QUÍMICA;D1;72;D2;73;D3;74;D4;75</item>
+        <item>QUÍMICA;E1;76;E2;77;E3;78;E4;79</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;A1;80;A2;81;A3;82;A4;83</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;B1;84;B2;85;B3;86;B4;87</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;C1;88;C2;89;C3;90;C4;91</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;D1;92;D2;93;D3;94;D4;95</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;E1;96;E2;97;E3;98;E4;99</item>
+    </string-array>
+    <string-array name="assignatures_electrica">
+        <item>MÈTODES MATEMÀTICS I;A1;0;A2;1;A3;2;A4;3</item>
+        <item>MÈTODES MATEMÀTICS I;B1;4;B2;4;B3;6;B4;7</item>
+        <item>MÈTODES MATEMÀTICS I;C1;8;C2;9;C3;10;C4;11</item>
+        <item>MÈTODES MATEMÀTICS I;D1;12;D2;13;D3;14;D4;15</item>
+        <item>MÈTODES MATEMÀTICS I;E1;16;E2;17;E3;18;E4;19</item>
+        <item>FÍSICA I;A1;20;A2;21;A3;22;A4;23</item>
+        <item>FÍSICA I;B1;24;B2;25;B3;26;B4;27</item>
+        <item>FÍSICA I;C1;28;C2;29;C3;30;C4;31</item>
+        <item>FÍSICA I;D1;32;D2;33;D34;2;D4;35</item>
+        <item>FÍSICA I;E1;36;E2;37;E3;38;E4;39</item>
+        <item>EXPRESSIÓ GRÀFICA;A1;40;A2;41;A3;42;A4;43</item>
+        <item>EXPRESSIÓ GRÀFICA;B1;44;B2;45;B3;46;B4;47</item>
+        <item>EXPRESSIÓ GRÀFICA;C1;48;C2;49;C3;50;C4;51</item>
+        <item>EXPRESSIÓ GRÀFICA;D1;52;D2;53;D3;54;D4;55</item>
+        <item>EXPRESSIÓ GRÀFICA;E1;56;E2;57;E3;58;E4;59</item>
+        <item>QUÍMICA;A1;60;A2;61;A3;62;A4;63</item>
+        <item>QUÍMICA;B1;64;B2;65;B3;66;B4;67</item>
+        <item>QUÍMICA;C1;68;C2;69;C3;70;C4;71</item>
+        <item>QUÍMICA;D1;72;D2;73;D3;74;D4;75</item>
+        <item>QUÍMICA;E1;76;E2;77;E3;78;E4;79</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;A1;80;A2;81;A3;82;A4;83</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;B1;84;B2;85;B3;86;B4;87</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;C1;88;C2;89;C3;90;C4;91</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;D1;92;D2;93;D3;94;D4;95</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;E1;96;E2;97;E3;98;E4;99</item>
+    </string-array>
+    <string-array name="assignatures_mecanica">
+        <item>MÈTODES MATEMÀTICS I;A1;0;A2;1;A3;2;A4;3</item>
+        <item>MÈTODES MATEMÀTICS I;B1;4;B2;4;B3;6;B4;7</item>
+        <item>MÈTODES MATEMÀTICS I;C1;8;C2;9;C3;10;C4;11</item>
+        <item>MÈTODES MATEMÀTICS I;D1;12;D2;13;D3;14;D4;15</item>
+        <item>MÈTODES MATEMÀTICS I;E1;16;E2;17;E3;18;E4;19</item>
+        <item>FÍSICA I;A1;20;A2;21;A3;22;A4;23</item>
+        <item>FÍSICA I;B1;24;B2;25;B3;26;B4;27</item>
+        <item>FÍSICA I;C1;28;C2;29;C3;30;C4;31</item>
+        <item>FÍSICA I;D1;32;D2;33;D34;2;D4;35</item>
+        <item>FÍSICA I;E1;36;E2;37;E3;38;E4;39</item>
+        <item>EXPRESSIÓ GRÀFICA;A1;40;A2;41;A3;42;A4;43</item>
+        <item>EXPRESSIÓ GRÀFICA;B1;44;B2;45;B3;46;B4;47</item>
+        <item>EXPRESSIÓ GRÀFICA;C1;48;C2;49;C3;50;C4;51</item>
+        <item>EXPRESSIÓ GRÀFICA;D1;52;D2;53;D3;54;D4;55</item>
+        <item>EXPRESSIÓ GRÀFICA;E1;56;E2;57;E3;58;E4;59</item>
+        <item>QUÍMICA;A1;60;A2;61;A3;62;A4;63</item>
+        <item>QUÍMICA;B1;64;B2;65;B3;66;B4;67</item>
+        <item>QUÍMICA;C1;68;C2;69;C3;70;C4;71</item>
+        <item>QUÍMICA;D1;72;D2;73;D3;74;D4;75</item>
+        <item>QUÍMICA;E1;76;E2;77;E3;78;E4;79</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;A1;80;A2;81;A3;82;A4;83</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;B1;84;B2;85;B3;86;B4;87</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;C1;88;C2;89;C3;90;C4;91</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;D1;92;D2;93;D3;94;D4;95</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;E1;96;E2;97;E3;98;E4;99</item>
+    </string-array>
+    <string-array name="assignatures_quimica">
+        <item>MÈTODES MATEMÀTICS I;A1;0;A2;1;A3;2;A4;3</item>
+        <item>MÈTODES MATEMÀTICS I;B1;4;B2;4;B3;6;B4;7</item>
+        <item>MÈTODES MATEMÀTICS I;C1;8;C2;9;C3;10;C4;11</item>
+        <item>MÈTODES MATEMÀTICS I;D1;12;D2;13;D3;14;D4;15</item>
+        <item>MÈTODES MATEMÀTICS I;E1;16;E2;17;E3;18;E4;19</item>
+        <item>FÍSICA I;A1;20;A2;21;A3;22;A4;23</item>
+        <item>FÍSICA I;B1;24;B2;25;B3;26;B4;27</item>
+        <item>FÍSICA I;C1;28;C2;29;C3;30;C4;31</item>
+        <item>FÍSICA I;D1;32;D2;33;D34;2;D4;35</item>
+        <item>FÍSICA I;E1;36;E2;37;E3;38;E4;39</item>
+        <item>EXPRESSIÓ GRÀFICA;A1;40;A2;41;A3;42;A4;43</item>
+        <item>EXPRESSIÓ GRÀFICA;B1;44;B2;45;B3;46;B4;47</item>
+        <item>EXPRESSIÓ GRÀFICA;C1;48;C2;49;C3;50;C4;51</item>
+        <item>EXPRESSIÓ GRÀFICA;D1;52;D2;53;D3;54;D4;55</item>
+        <item>EXPRESSIÓ GRÀFICA;E1;56;E2;57;E3;58;E4;59</item>
+        <item>QUÍMICA;A1;60;A2;61;A3;62;A4;63</item>
+        <item>QUÍMICA;B1;64;B2;65;B3;66;B4;67</item>
+        <item>QUÍMICA;C1;68;C2;69;C3;70;C4;71</item>
+        <item>QUÍMICA;D1;72;D2;73;D3;74;D4;75</item>
+        <item>QUÍMICA;E1;76;E2;77;E3;78;E4;79</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;A1;80;A2;81;A3;82;A4;83</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;B1;84;B2;85;B3;86;B4;87</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;C1;88;C2;89;C3;90;C4;91</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;D1;92;D2;93;D3;94;D4;95</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;E1;96;E2;97;E3;98;E4;99</item>
+    </string-array>
+    <string-array name="assignatures_textil">
+        <item>MÈTODES MATEMÀTICS I;A1;0;A2;1;A3;2;A4;3</item>
+        <item>MÈTODES MATEMÀTICS I;B1;4;B2;4;B3;6;B4;7</item>
+        <item>MÈTODES MATEMÀTICS I;C1;8;C2;9;C3;10;C4;11</item>
+        <item>MÈTODES MATEMÀTICS I;D1;12;D2;13;D3;14;D4;15</item>
+        <item>MÈTODES MATEMÀTICS I;E1;16;E2;17;E3;18;E4;19</item>
+        <item>FÍSICA I;A1;20;A2;21;A3;22;A4;23</item>
+        <item>FÍSICA I;B1;24;B2;25;B3;26;B4;27</item>
+        <item>FÍSICA I;C1;28;C2;29;C3;30;C4;31</item>
+        <item>FÍSICA I;D1;32;D2;33;D34;2;D4;35</item>
+        <item>FÍSICA I;E1;36;E2;37;E3;38;E4;39</item>
+        <item>EXPRESSIÓ GRÀFICA;A1;40;A2;41;A3;42;A4;43</item>
+        <item>EXPRESSIÓ GRÀFICA;B1;44;B2;45;B3;46;B4;47</item>
+        <item>EXPRESSIÓ GRÀFICA;C1;48;C2;49;C3;50;C4;51</item>
+        <item>EXPRESSIÓ GRÀFICA;D1;52;D2;53;D3;54;D4;55</item>
+        <item>EXPRESSIÓ GRÀFICA;E1;56;E2;57;E3;58;E4;59</item>
+        <item>QUÍMICA;A1;60;A2;61;A3;62;A4;63</item>
+        <item>QUÍMICA;B1;64;B2;65;B3;66;B4;67</item>
+        <item>QUÍMICA;C1;68;C2;69;C3;70;C4;71</item>
+        <item>QUÍMICA;D1;72;D2;73;D3;74;D4;75</item>
+        <item>QUÍMICA;E1;76;E2;77;E3;78;E4;79</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;A1;80;A2;81;A3;82;A4;83</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;B1;84;B2;85;B3;86;B4;87</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;C1;88;C2;89;C3;90;C4;91</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;D1;92;D2;93;D3;94;D4;95</item>
+        <item>TECNOLOGIES AMBIENTALS I SOSTENIBILITAT;E1;96;E2;97;E3;98;E4;99</item>
+    </string-array>
+    <string-array name="assignatures_tecaero">
+        <item>TecAero Digital;101;102;103;104</item>
+        <item>Electrònica Analògica;101;102;103;104</item>
+        <item>Electrònica de Potencia I;101;102;103;104</item>
+        <item>Electrònica de Potencia II;101;102;103;104</item>
+        <item>Instrumentació Electrònica;101;102;103;104</item>
+        <item>Modelització de Sistemes Dinàmics I;101;102;103;104</item>
+        <item>Modelització de Sistemes Dinàmics I;101;102;103;104</item>
+    </string-array>
+    <string-array name="assignatures_vehaero">
+        <item>VehAero Digital;101;102;103;104</item>
+        <item>Electrònica Analògica;101;102;103;1049</item>
+        <item>Electrònica de Potencia I;101;102;103;104</item>
+        <item>Electrònica de Potencia II;101;102;103;104</item>
+        <item>Instrumentació Electrònica;101;102;103;104</item>
+        <item>Modelització de Sistemes Dinàmics I;101;102;103;104</item>
+        <item>Modelització de Sistemes Dinàmics I;101;102;103;104</item>
+    </string-array>
+    <string-array name="assignatures_audiovisuals">
+        <item>Audiovisuals Digital;101;102;103;104</item>
+        <item>Electrònica Analògica;101;102;103;104</item>
+        <item>Electrònica de Potencia I;101;102;103;104</item>
+        <item>Electrònica de Potencia II;101;102;103;104</item>
+        <item>Instrumentació Electrònica;101;102;103;104</item>
+        <item>Modelització de Sistemes Dinàmics I;101;102;103;104</item>
+        <item>Modelització de Sistemes Dinàmics I;101;102;103;104</item>
+    </string-array>
+</resources>

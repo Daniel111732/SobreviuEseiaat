@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/label_aulesPC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/label_aulesdocents"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+            android:id="@+id/label_select_classroom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_classroom"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:gravity="center"/>
+
+    <Button
+            android:id="@+id/btn_planol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="show_planol"
+            android:text="@string/btn_planol"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+    <ListView
+        android:id="@+id/list_aules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

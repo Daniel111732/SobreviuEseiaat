@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageButton
+        android:id="@+id/btn_info"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"
+        android:onClick="consulta_info"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo_info" />
+
+    <ImageButton
+        android:id="@+id/btn_pc"
+        app:srcCompat="@drawable/logo_ordenador"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:onClick="consulta_pc"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="210dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_aules"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/btn_info"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="150dp"
+        android:scaleType="fitCenter"
+        android:onClick="consulta_aules"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/logo_books" />
+
+    <ImageButton
+        android:id="@+id/btn_calendari"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitCenter"
+        android:onClick="consulta_calendar"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/logo_calendar"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_atenea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:onClick="login_atenea"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/banner_atenea" />
+
+    <ImageView
+        android:id="@+id/logo_eseiaat"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo_eseiaat"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:id="@+id/label_atenea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_atenea"
+        android:layout_alignStart="@+id/btn_atenea"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:text="@string/login_atenea"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/label_upc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_info"
+        android:layout_alignStart="@+id/btn_info"
+        android:layout_below="@+id/btn_info"
+        android:layout_marginTop="6dp"
+        android:text="@string/label_upc"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/label_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_calendari"
+        android:layout_alignStart="@+id/btn_calendari"
+        android:layout_below="@+id/btn_calendari"
+        android:layout_marginTop="6dp"
+        android:text="@string/label_calendar"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/label_aules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_aules"
+        android:layout_alignStart="@+id/btn_aules"
+        android:layout_below="@+id/btn_aules"
+        android:layout_marginTop="6dp"
+        android:text="@string/label_aules"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/label_pc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_pc"
+        android:layout_alignStart="@+id/btn_pc"
+        android:layout_below="@+id/btn_pc"
+        android:layout_marginTop="6dp"
+        android:text="@string/label_pc"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+
+
+</RelativeLayout>
