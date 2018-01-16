@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 
 
-//La classe Class_Aula conté els artibuts i mètodes necessaris per gestionar les aules docents
+//Danieel: La classe Class_Aula conté els artibuts i mètodes necessaris per gestionar les aules docents
 public class Class_Aula {
 
     private String nom;

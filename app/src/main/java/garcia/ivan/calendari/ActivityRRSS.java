@@ -13,7 +13,7 @@ public class ActivityRRSS extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rrss);
     }
-
+    //Guillem: Es creen diferents intents per cercar les diferents URL al cercador:
     public void rrss_fbk(View view) {
         Intent browserIntent = new Intent(Intent.ACTION_VIEW,
                 Uri.parse("https://www.facebook.com/universitatUPC"));

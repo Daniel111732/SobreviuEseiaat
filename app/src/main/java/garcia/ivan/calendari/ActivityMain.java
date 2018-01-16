@@ -7,8 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 
-//Aquesta és l'activitat principal de l'aplicació
-//Els mètodes obren les activitats corresponents a cada apartat de l'aplicació
+//Danieel: Aquesta és l'activitat principal de l'aplicació
+//Danieel: Els mètodes obren les activitats corresponents a cada apartat de l'aplicació
 public class ActivityMain extends AppCompatActivity {
 
     @Override
@@ -37,7 +37,7 @@ public class ActivityMain extends AppCompatActivity {
         startActivity(intent);
     }
 
-    //Obre la web d'atenea al navegador d'internet del mòbil
+    //Danieel: Obre la web d'atenea al navegador d'internet del mòbil
     public void login_atenea(View view){
         Intent browserIntent = new Intent(Intent.ACTION_VIEW,
                 Uri.parse("http://atenea.upc.edu"));

@@ -22,14 +22,18 @@ public class ActivityCalendarHorari extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calendar_horari);
 
+        //Guillem: Creem i carreguem les dades a un array d'strings
         String[] consulta_CH = getResources().getStringArray(R.array.consulta_CH);
         CH_list = new ArrayList<>(Arrays.asList(consulta_CH));
 
+        //Guillem: Creem i referenciem la llista amb el layout
         final ListView list = (ListView) findViewById(R.id.list_CHmenu);
 
+        //Guillem: Inicialitzem l'adapter amb un model de llista per defecte
         adapter= new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, CH_list);
         list.setAdapter(adapter);
 
+        //Guillem: Afegim un listener que segons l'item de la llista escollit obrirà una web o una altre amb un browserIntent
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int pos, long id) {
@@ -51,9 +55,9 @@ public class ActivityCalendarHorari extends AppCompatActivity {
                             Uri.parse("https://eseiaat.upc.edu/ca/estudis/calendaris-dexamens/pdf/calendari-examens-finals_17-18_1"));
                     startActivity(browserIntent);
                 }else if (pos==4){
-                Intent intent = new Intent(view.getContext(), ActivityHorari.class);
-                startActivity(intent);
-            }
+                    Intent intent = new Intent(view.getContext(), ActivityHorari.class);
+                    startActivity(intent);
+                }
             }
         });
     }

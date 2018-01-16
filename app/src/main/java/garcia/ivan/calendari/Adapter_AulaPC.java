@@ -31,7 +31,7 @@ public class Adapter_AulaPC extends ArrayAdapter<Class_AulaPC> {
         super(context, resource, objects);
     }
 
-    //Posa l'etiqueta de l'aula i edifici de cada item i canvia el color en funció de la
+    //Danieel: Posa l'etiqueta de l'aula i edifici de cada item i canvia el color en funció de la
     //disponibilitat de l'aula en aquell moment
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -71,7 +71,7 @@ public class Adapter_AulaPC extends ArrayAdapter<Class_AulaPC> {
         return result;
     }
 
-    //A partir d'un array de booleans genera gridView on mostra en una taula la disponibilitat
+    //Danieel: A partir d'un array de booleans genera gridView on mostra en una taula la disponibilitat
     // de l'aula d'informàtica
     private void showTimetable(final Class_AulaPC item) {
 
@@ -145,7 +145,7 @@ public class Adapter_AulaPC extends ArrayAdapter<Class_AulaPC> {
 
         gridView.setNumColumns(columnes);
 
-        // Inserim el GridView en un AlertDialog i el mostrem
+        //Danieel:  Inserim el GridView en un AlertDialog i el mostrem
         AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
         builder.setView(gridView);
         builder.setTitle(item.getEdifici()+" - "+item.getAula());
@@ -154,7 +154,7 @@ public class Adapter_AulaPC extends ArrayAdapter<Class_AulaPC> {
         builder.show();
     }
 
-    //Verifica la connexió a Internet i mitjançant les dades de l'aula accedeix al web
+    //Danieel: Verifica la connexió a Internet i mitjançant les dades de l'aula accedeix al web
     // i mostra el mapa amb l'ubicació de l'aula
     public void showMap(Class_AulaPC item){
         //Primer revisa si hi ha connexió a Internet

@@ -23,19 +23,19 @@ public class ActivityPC extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pc);
 
-        // Primer extraiem les dades del les aules ubicades a Resources
+        //Danieel: Primer extraiem les dades del les aules ubicades a Resources
         data_aules_pc = getResources().getStringArray(R.array.data_aules_pc);
 
         createAulesPC(); //Crea un ArrayList amb els objectes Class_AulaPC buits
         extractData(); // Extreu les dades i les insereix als objectes
 
-        //Creem el adapter i l'hi afegim el layout i l'array d'aulesPC
+        //Danieel: Creem el adapter i l'hi afegim el layout i l'array d'aulesPC
         adapter = new Adapter_AulaPC(this,R.layout.activity_pc,aulesPC);
         list = (ListView) findViewById(R.id.listPC);
         list.setAdapter(adapter);
     }
 
-    //A partir de les dades crea els objectes Class_AulaPC necessaris
+    //Danieel: A partir de les dades crea els objectes Class_AulaPC necessaris
     private void createAulesPC() {
         aulesPC = new ArrayList<>();
         for(int i = 0; i< data_aules_pc.length; i++){
@@ -43,7 +43,7 @@ public class ActivityPC extends AppCompatActivity {
         }
     }
 
-    //Extreu les dades i fa el tractament necessari per després introduir-les als
+    //Danieel: Extreu les dades i fa el tractament necessari per després introduir-les als
     //objectes Class_AulaPC
     private void extractData() {
         for(int aula = 0; aula< data_aules_pc.length; aula++){
@@ -70,14 +70,14 @@ public class ActivityPC extends AppCompatActivity {
         }
     }
 
-    //Crea el menú
+    //Danieel: Crea el menú
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater= getMenuInflater();
         inflater.inflate(R.menu.menu_actualitza, menu);
         return true;
     }
 
-    //El menú té una única opció que permet refrescar l'activitat
+    //Danieel: El menú té una única opció que permet refrescar l'activitat
     public boolean onOptionsItemSelected(MenuItem item) {
         finish();
         overridePendingTransition(0, 0);

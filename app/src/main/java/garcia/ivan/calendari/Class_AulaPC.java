@@ -3,7 +3,7 @@ package garcia.ivan.calendari;
 import java.util.Arrays;
 import java.util.Calendar;
 
-//La classe Class_AulaPC conté els artibuts i mètodes necessaris per gestionar les aules d'informàtica
+//Danieel: La classe Class_AulaPC conté els artibuts i mètodes necessaris per gestionar les aules d'informàtica
 public class Class_AulaPC {
 
     private String aula;
@@ -49,7 +49,7 @@ public class Class_AulaPC {
         updateAvailable();
     }
 
-    //Agafa l'hora local del mòbil i actualitza la disponibilitat actual de l'aula
+    //Danieel: Agafa l'hora local del mòbil i actualitza la disponibilitat actual de l'aula
     private void updateAvailable(){
 
         int day = Calendar.getInstance().get(Calendar.DAY_OF_WEEK);

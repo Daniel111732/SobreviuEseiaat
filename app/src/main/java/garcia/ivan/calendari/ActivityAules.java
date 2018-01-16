@@ -38,13 +38,13 @@ public class ActivityAules extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aules);
 
-        // Primer extraiem les dades del les aules ubicades a Resources
+        //Danieel: Primer extraiem les dades del les aules ubicades a Resources
         data_aules = getResources().getStringArray(R.array.data_aules);
 
-        createAules(); //Crea un ArrayList amb els objectes Class_Aula buits
-        extractData(); // Extreu les dades i inserta els noms i horaris als objectes
+        createAules(); //Danieel: Crea un ArrayList amb els objectes Class_Aula buits
+        extractData(); //Danieel: Extreu les dades i inserta els noms i horaris als objectes
 
-        //Creem el adapter i l'hi afegim el layout i l'array d'aules
+        //Danieel: Creem el adapter i l'hi afegim el layout i l'array d'aules
         adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,aules)
         {
 
@@ -75,7 +75,7 @@ public class ActivityAules extends AppCompatActivity {
         list = (ListView) findViewById(R.id.list_aules);
         list.setAdapter(adapter);
 
-        //Creem metode on item click
+        //Danieel: Creem metode on item click
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int pos, long id) {
@@ -85,7 +85,7 @@ public class ActivityAules extends AppCompatActivity {
 
     }
 
-    //Extreu les dades de les aules i els seus respectius horaris
+    //Danieel: Extreu les dades de les aules i els seus respectius horaris
     private void extractData() {
         for(int aula=0;aula<data_aules.length;aula++){
 
@@ -123,7 +123,7 @@ public class ActivityAules extends AppCompatActivity {
         }
     }
 
-    //A partir de les dades crea els objectes Class_Aula necessaris
+    //Danieel: A partir de les dades crea els objectes Class_Aula necessaris
     private void createAules() {
         aules = new ArrayList<>();
         for(int i=0; i<data_aules.length;i++){
@@ -131,10 +131,10 @@ public class ActivityAules extends AppCompatActivity {
         }
     }
 
-    //Revisa si hi ha connexió a Internet i mitjançant les dades de l'aula accedeix a la web
+    //Danieel: Revisa si hi ha connexió a Internet i mitjançant les dades de l'aula accedeix a la web
     //mapes upc per mostrar l'ubicació de l'aula en un plànol
     public void show_planol(View view) {
-        //Primer revisa si hi ha connexió a Internet
+        //Danieel: Primer revisa si hi ha connexió a Internet
         ConnectivityManager cm =
                 (ConnectivityManager)this.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
@@ -152,7 +152,7 @@ public class ActivityAules extends AppCompatActivity {
                     Toast.LENGTH_SHORT).show();
     }
 
-    //A partir de les dades de l'item Class_Aula, es genera gridView
+    //Danieel: A partir de les dades de l'item Class_Aula, es genera gridView
     // on mostra en una taula l'horari de l'aula, si seleccionem una hora veurem l'assignatura
     private void mostraHorariAula(AdapterView<?> adapterView, View view, int pos, long id) {
         final Class_Aula classAula = (Class_Aula) adapterView.getItemAtPosition(pos);
@@ -262,7 +262,7 @@ public class ActivityAules extends AppCompatActivity {
             }
         });
 
-        // Inserim el GridView en un AlertDialog i el mostrem
+        //Danieel: Inserim el GridView en un AlertDialog i el mostrem
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setView(gridView);
         builder.setTitle(getResources().getString(R.string.classroom)+" "+ classAula.getNom());
@@ -271,14 +271,14 @@ public class ActivityAules extends AppCompatActivity {
 
     }
 
-    //Crea el menú
+    //Danieel: Crea el menú
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater= getMenuInflater();
         inflater.inflate(R.menu.menu_actualitza, menu);
         return true;
     }
 
-    //El menú té una única opció que permet refrescar l'activitat
+    //Danieel: El menú té una única opció que permet refrescar l'activitat
     public boolean onOptionsItemSelected(MenuItem item) {
         finish();
         overridePendingTransition(0, 0);
